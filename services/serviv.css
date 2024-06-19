@@ -1,0 +1,94 @@
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+.cta {
+    background-size: cover;
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+   
+}
+   */
+   .cta img{
+    
+    margin-left: 600px;
+   }
+   .close img {
+    width: 35px;
+    height: 35px;
+    margin-left: 1580px;
+    margin-top: 25px;
+
+   }
+  .cta h2 {
+    color: #050505;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    font-style: unset;
+    margin-top: 1px;
+  }
+  .cta h3 {
+    color: #0c0a0a;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    
+  }
+  .cta h4 {
+    color: #0c0a0a;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    
+  }
+  .cta li {
+    color: #0e0e0e;
+    text-align: center;
+    font-size: 26px;
+    list-style-type: decimal;
+    padding: 1px;
+   
+  }
+  .cta p {
+    color: #0a0909;
+    text-align: center;
+    font-size: 28px;
+    font-weight:initial;
+    padding: 20px;
+  }
+  .list{
+    align-items: center;
+  }
+  .cta .cta-btn {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 24px 46px;
+    border-radius: 38px;
+    transition: 0.5s;
+    margin-top:60px;
+margin-left: 750PX;
+    border: 2px solid rgba(7, 7, 7, 0.5);
+    color: #fff;
+    text-decoration: wavy;
+   
+  }
+  .close{
+    margin-left: 50px;
+  }
+  i{
+    color: #fff;
+  }
+  .cta .cta-btn:hover {
+    border-color: #fff;
+  }
+  

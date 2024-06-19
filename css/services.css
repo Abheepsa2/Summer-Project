@@ -1,0 +1,65 @@
+
+
+@import url(https://fonts.bunny.net/css?family=amita:700);
+
+body {
+    background: url(../pics/servicbg.png)
+        center center/cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #090909;
+    font-family: Amita;
+    margin: 20px auto;
+    width: 450px;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 10px double #bc6c25;
+}
+h2{
+    color: #090909;
+   
+    text-align: center;
+    text-decoration: wavy;
+    margin-bottom: 3px;
+    padding: 5px;
+    font-size: 30px;
+}
+.container b{
+    font-size: 20px;
+    margin-top: 200px;
+   
+}
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    border: 10px solid #fefae0;
+   
+ transition-duration: 1s; 
+ } 
+img:hover {
+    border: 5px solid #fff;
+    transform: scale(1.1);
+    filter: none;
+    color: antiquewhite;
+}
+
+footer {
+    background-color: #0082e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    min-width: 100vw;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}  
+

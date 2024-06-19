@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(rgba(134, 185, 209, 0.6), rgba(103, 176, 209, 0.6)), url("patient-bg.png")   center center;
+   
+}
+h1{
+    color:black;
+    font-size: 40px;
+    margin-top: 18px;
+    
+
+}
+.w3-container{
+    background: linear-gradient(rgba(134, 185, 209, 0.9), rgba(103, 176, 209, 0.9)), url("patient-bg.png")   center center;
+   
+   
+}
+h3{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 2px;
+    color:black;
+}

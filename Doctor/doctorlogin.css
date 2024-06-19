@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:whitesmoke;
+    box-shadow: 6px 6px 5px 18px rgb(101, 99, 99);
+    background-image: url("backgrounddoc.jpeg");
+}
+
+/*------------ Login container ------------*/
+/* .wrapper{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(patient-bg.webp);
+    background-position: center;
+    background-position: cover;
+    height: 109vh;
+} */
+
+.box-area{
+    width: 800px;
+    height: 600px;
+    box-shadow: 16px 6px 5px 18px rgb(66, 63, 63);
+}
+
+/*------------ Right box ------------*/
+.image{
+border-radius: 20px;
+}
+.right-box{
+    padding: 40px 55px 45px 30px;
+}
+h2{
+    text-align: center;
+    text-shadow: 2px 3px 3px rgb(80, 76, 76);
+    font-size: 40px;
+}
+/*------------ Custom Placeholder ------------*/
+.img
+::placeholder{
+    font-size: 16px;
+}
+.input{
+    font-size: 20px;
+    font-weight: bold;
+}
+.rounded-4{
+    border-radius: 40px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+button{
+    font-size: 26px;
+}
+img{
+    border-radius: 35px;
+}
+/*------------ For small screens------------*/
+
+/* @media only screen and (max-width: 768px){
+
+     .box-area{
+        margin: 0 12px;
+
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 25px;
+     }
+
+} */

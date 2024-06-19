@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+* {
+    padding: 11px;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #eee;
+    /* height: 150vh; */
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat
+}
+
+.wrapper {
+    max-width: 800px;
+    max-height: 800px;
+    border-radius: 10px;
+    margin-top: -2px;;
+    margin: 30px auto;
+    padding: 55px 50px;
+    box-shadow: 25px 25px 80px  rgb(206, 206, 206)
+
+}
+
+.h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 7.5rem;
+    font-weight: bold;
+    color: #400485;
+    font-style: italic
+}
+
+.h6 {
+    font-family: 'Poppins', sans-serif
+    font-size 1.3em;
+}
+
+.input-field {
+    border-radius: 6px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px  solid #400485;
+    color: #400485;
+    
+}
+.register-right .nav-item{
+    background-color: #d6c7e1;
+}
+
+.input-field:hover {
+    color: #7b4ca0;
+    border: 1px solid #7b4ca0
+    
+    
+}
+/* .nav-item{
+    box-shadow: inset;
+    border: #7b4ca0;
+} */
+
+input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    padding: 0px 2px;
+    font-family: 'Poppins', sans-serif
+}
+
+.fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none
+}
+
+a {
+    text-decoration: none;
+    color: #400485;
+    font-weight: 700
+}
+
+a:hover {
+    text-decoration: none;
+    color: #7b4ca0
+}
+
+.option {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer
+}
+
+.option label.text-muted {
+    display: block;
+    cursor: pointer
+}
+
+.option input {
+    display: none
+}
+
+.btn.btn-block {
+    height: 6%;
+    border-radius: 25px;
+    background-color: #400485;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+margin-top: 6px;
+    
+}
+
+.btn.btn-block:hover {
+    background-color: #55268be0
+    
+}
+
+

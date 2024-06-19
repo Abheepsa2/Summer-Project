@@ -1,0 +1,176 @@
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
+    background-color: #1E5050;
+    /* margin-left: 100px; */
+   
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav > ul > li { list-style: none; }
+
+a { 
+	color: #3CF;
+    text-decoration: none;
+    transition: all 0.3s ease; 
+}
+
+p { 
+    line-height: 1.8; 
+    margin-top: 0;
+}
+
+h2 { margin-top: 0; 
+align-items: center;
+font-size: 28px;
+
+text-decoration: wavy;
+text-decoration: underline;
+}
+
+
+.tm-container { padding: 20px; 
+margin-left: 350px;
+margin-top: 0px;
+width: 1200px;
+
+}
+
+
+
+
+.tm-site-header {
+    background-color: white;
+    color: #099;
+    width: 100%;
+    height: 160px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.tm-site-logo { margin-right: 30px; }
+
+.tm-site-name {
+    font-size: 2.2rem;
+    font-style: italic;    
+}
+
+/* .tm-left-inner {
+    max-width: 500px;
+    width: 100%;
+} */
+
+.tm-site-nav-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tm-page-nav-item { margin-top: 20px; }
+
+.tm-page-link {
+    min-width: 240px;
+    height: 100px;
+    background-color: white;
+    color: #099;
+    display: flex;
+    text-decoration: none;
+    align-items: center;      
+    font-size: 1.2rem;
+    margin-right: 30px;
+}
+
+.tm-page-link:hover,
+.tm-page-link.active {
+    background-color: #099;
+    color: white;
+}
+
+.tm-page-link-icon {
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 1.5rem;
+}
+
+.tm-black-bg {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+.tm-drinks-nav > ul > li { display: inline-block; }
+
+.tm-drinks-nav > ul > li > a {
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+}
+
+.tm-drinks-nav { height: 80px; }
+.tm-main { max-width: 660px; }
+
+.tm-drinks-nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.tm-drinks-nav > ul > li a.active,
+.tm-drinks-nav > ul > li a:hover {
+    color: #96FEFF;
+    border-bottom: 4px solid #96FEFF;
+}
+
+.tm-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+
+.tm-list-item-2 { align-items: flex-start; }
+
+.tm-list-item-img {
+    margin-right: 20px;
+    width: 160px;
+    height: 160px;
+    background-color: #099;
+}
+
+.tm-list-item-img-big {
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.tm-list-item-text {
+    padding: 20px 25px;
+    flex: 1;
+}
+
+.tm-list-item-text-2 { flex: 1; }
+
+.tm-list-item-name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.tm-list-item-price { color: #96FEFF; }
+.tm-site-footer { margin-top: 15px; }
+
